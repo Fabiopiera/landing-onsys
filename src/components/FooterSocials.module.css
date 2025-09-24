@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* iconos en blanco */
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
