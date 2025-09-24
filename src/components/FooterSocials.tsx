@@ -30,7 +30,7 @@ export default function FooterSocials() {
       </a>
 
       <a
-        href="https://facebook.com/tuusuario"
+        href=""
         target="_blank"
         rel="noreferrer"
         aria-label="Facebook"
