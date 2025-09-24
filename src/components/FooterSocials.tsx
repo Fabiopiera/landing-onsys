@@ -28,7 +28,6 @@ export default function FooterSocials() {
       >
         <FaInstagram size={28} />
       </a>
-
       <a
         href=""
         target="_blank"
