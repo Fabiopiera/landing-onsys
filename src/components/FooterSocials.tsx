@@ -16,7 +16,7 @@ export default function FooterSocials() {
         aria-label="WhatsApp"
         className={styles.icon}
       >
-        <FaWhatsapp size={28} />
+        <FaWhatsapp />
       </a>
 
       <a
@@ -26,8 +26,9 @@ export default function FooterSocials() {
         aria-label="Instagram"
         className={styles.icon}
       >
-        <FaInstagram size={28} />
+        <FaInstagram />
       </a>
+
       <a
         href=""
         target="_blank"
@@ -35,7 +36,7 @@ export default function FooterSocials() {
         aria-label="Facebook"
         className={styles.icon}
       >
-        <FaFacebookF size={28} />
+        <FaFacebookF />
       </a>
 
       <button
@@ -54,7 +55,7 @@ export default function FooterSocials() {
         aria-label="Compartir"
         className={styles.icon}
       >
-        <FaShareAlt size={28} />
+        <FaShareAlt />
       </button>
     </footer>
   );

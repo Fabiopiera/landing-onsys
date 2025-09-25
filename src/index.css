@@ -24,10 +24,19 @@ a:hover {
 
 body {
   margin: 0;
+
+  /* layout vertical: header/hero/content arriba, footer abajo */
   display: flex;
-  place-items: center;
+  flex-direction: column; /* apila contenido verticalmente */
+  align-items: center; /* centra horizontalmente */
+  justify-content: flex-start; /* NO centrar verticalmente */
+
   min-width: 320px;
   min-height: 100vh;
+
+  /* espacio inferior para el footer fijo (ajusta 64px si cambias footer) */
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+  box-sizing: border-box;
 }
 
 h1 {
