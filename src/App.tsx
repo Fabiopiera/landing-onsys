@@ -2,11 +2,11 @@ import HeroPromo from "./components/HeroPromo";
 import FooterSocials from "./components/FooterSocials";
 
 export default function App() {
+  const promoSrc = "/promo.jpg"; // reemplazá con tu imagen en public/
+
   return (
-    <div
-      style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
-    >
-      <HeroPromo imageAlt="Promo principal" />
+    <div>
+      <HeroPromo imageSrc={promoSrc} />
       <FooterSocials />
     </div>
   );
